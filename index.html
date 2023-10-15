@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coffee Place</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header active gallery">
+        <img src="images/coffeelogos.jpg" alt="logo" class="logo">
+
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="#home" class="navbar-item"> Home </a></li>
+                <li><a href="#about" class="navbar-item"> About</a></li>
+                <li><a href="menu.html" target="_blank" class="navbar-item" style="color:DodgerBlue;">Products</a></li>
+                <li><a href="event.html" target="_blank" class="navbar-item"> Events</a></li>
+                <li><a href="#contact" class="navbar-item"> Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="mobile-navbar-btn">
+            <i class="fa fa-bars mobile-nav-icon open-btn" aria-hidden="true" name="menu-outline"></i>
+
+            <i class="fa fa-times mobile-nav-icon close-btn" aria-hidden="true" name="close-outline"></i>
+        </div>
+    </header>
+
+    <!-- ===========================================
+                      HERO SECTION 
+    =========================================== -->
+
+   <main class="main-section">
+    <section class="hero-section gallery" id="home">
+            <div class="row-image wow animate__backInLeft" id="hero-image"> 
+                <img src="images/coffemainp.jpg" alt="main-image" class="main-image">
+            </div>
+            <div class="row-text wow animate__backInRight" smooth data-wow-duration="2s">
+                <h1>Good Coffee Will <br>
+                    Always Find The <br>
+                    Audience
+                </h1>
+                <h4> &nbsp;&nbsp; We Provide A Variety Of Unique And Best Coffees.</h4>
+            </div>
+    </section>
+   </main>
+
+   <!-- ===========================================
+                     SECTION - 1
+    =========================================== -->
+
+   <section class="section-1" id="about">
+    <div class="row-text-1 wow animate__backInLeft" id="section-1-text">
+        <h1> TIME &nbsp; <i class="fa fa-clock-o" aria-hidden="true"></i></h1>
+        <h2>MONDAY - SATURDAY</h2>
+        <h4>MORNING 10 TO 1 || AFTERNOON 5 TO 8</h4>
+        <h4>CLOSE ON SUNDAY</h4>
+        <h4>BRING AN APPOINTMENT</h4>
+        <h4>APPOINTMENT NUMBER : +61 493 404 484</h4>
+    </div>
+    <div class="row-image-1">
+        <img src="images/coffeelogos.jpg" alt="main-image" class="main-image wow animate__backInRight" smooth data-wow-duration="2s" id="section-1-image">
+    </div>
+</section>
+
+ <!-- ===========================================
+                     SECTION - 2
+    =========================================== -->
+    <!-- <section class="section-2" id="location">
+        <div class="map">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14876.481721991207!2d72.8306868!3d21.2270725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8e7d6b00bef18a61!2sSarthak%20Homeopathy!5e0!3m2!1sen!2sin!4v1660736695263!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+        <div class="map-text wow animate__backInRight" smooth data-wow-duration="2s">
+            <h2> <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; LOCATION</h2>
+            <h4>105-106, First Floor, Rajlaxmi Complex, Vasanji Park Society, Behind of Kantareshvar Mahadev Mandir, Katargam, Surat - 395004</h4>
+        </div>
+    </section> -->
+
+     <!-- ===========================================
+                     SUBMIT FORM
+    =========================================== -->
+
+    <section class="section section-contact">
+        <div class="container container-contact" id="contact">
+            <h2>
+               Contact Us &nbsp; <i class="fa fa-phone" aria-hidden="true"></i>
+            </h2>
+        </div>
+
+        <div class="section-contact-main contact-container">
+            <form action="">
+                <div class="grid grid-two-column flex">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="username" placeholder="Enter your name" id="username" required>
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="Enter your E-mail" id="email" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" placeholder="Subject" id="subject">
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn">
+                </div>
+            </form>
+        </div>
+    </section>
+
+        <!-- ===========================================
+                     BACK TO TOP
+    =========================================== -->
+
+    <div class="fa-stack active" onclick="topFunction()" id="myBtn" title="Go
+                to top" style="font-size:
+                28px">
+                <a href="#">
+                    <i class="fa fa-circle fa-stack-2x" aria-hidden="true" 
+                        style="color:
+                        #3a424d"></i>
+                    <i class="fa fa-arrow-up fa-stack-1x" aria-hidden="true"
+                        style="color:
+                        white"></i>
+                </a>
+            </div>
+    
+
+              <!-- ===========================================
+                     FOOTER
+    =========================================== -->
+       
+            <div class="footerr pt-5">
+                <div class="container">
+                    <footer class="text-center text-lg-start">
+                        <div class="container d-flex justify-content-center
+                            py-5">
+                            <div class="footer-icon">
+                                <h2>Social Links</h2>
+                                <div class="fa-stack" style="font-size:
+                                    28px">
+                                    <a>
+                                        <i class="fa fa-circle fa-stack-2x"
+                                            aria-hidden="true" style="color:
+                                            blue"></i>
+                                        <i class="fa fa-facebook
+                                            fa-stack-1x" aria-hidden="true"
+                                            style="color: white"></i>
+                                    </a>
+                                </div>
+                                <div class="fa-stack" style="font-size:
+                                    28px">
+                                    <a>
+                                        <i class="fa fa-circle fa-stack-2x"
+                                            aria-hidden="true" style="color:
+                                            blue"></i>
+                                        <i class="fa fa-twitter fa-stack-1x"
+                                            aria-hidden="true" style="color:
+                                            white"></i>
+                                    </a>
+                                </div>
+                                <div class="fa-stack" style="font-size:
+                                    28px">
+                                    <a>
+                                        <i class="fa fa-circle fa-stack-2x"
+                                            aria-hidden="true" style="color:
+                                            blue"></i>
+                                        <i class="fa fa-globe
+                                            fa-stack-1x" aria-hidden="true"
+                                            style="color: white"></i>
+                                    </a>
+                                </div>
+                                <div class="fa-stack" style="font-size:
+                                    28px">
+                                    <a>
+                                        <i class="fa fa-circle fa-stack-2x"
+                                            aria-hidden="true" style="color:
+                                            blue"></i>
+                                        <i class="fa fa-instagram
+                                            fa-stack-1x" aria-hidden="true"
+                                            style="color: white"></i>
+                                    </a>
+                                </div>
+                                <div class="fa-stack" style="font-size:
+                                    28px">
+                                    <a>
+                                        <i class="fa fa-circle fa-stack-2x"
+                                            aria-hidden="true" style="color:
+                                            blue"></i>
+                                        <i class="fa fa-youtube-play
+                                            fa-stack-1x" aria-hidden="true"
+                                            style="color: white"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="text-center text-white p-3">
+                            Copyright © <a href="https://decodex.io/"
+                                target="_blank" style="color: white;">Decode X</a>
+                        </div> -->
+                    </footer>
+                </div>
+            </div>
+     
+
+            <script>
+                new WOW().init();
+            </script>
+
+            <script>
+                $(document).ready(function(){
+                $(window).scroll(function(){
+                    
+                    var positiontop = $(document).scrollTop();
+                    console.log(positiontop);
+                    
+                    
+                    if((positiontop > 50) && (positiontop < 500)){
+
+                        $('#hero-image').addClass('wow animate__backInLeft');
+                    }
+
+                });
+
+
+                });
+
+            </script>
+</body>
+</html>
+
